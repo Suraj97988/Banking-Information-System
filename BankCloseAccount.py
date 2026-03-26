@@ -3,7 +3,7 @@ from BankExcept import CustomerNotFoundError
 def accountclose():
     while True:
         try:
-            con = mc.connect(host="localhost", user="root", password="Agarwal", database="bank",use_pure=True)
+            con = mc.connect(host="localhost", user="root", password="password", database="bank",use_pure=True)
             cur = con.cursor()
             acno = int(input("Enter Account Number to close: "))
             pin = int(input("Enter PIN Number: "))
