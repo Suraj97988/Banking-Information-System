@@ -1,4 +1,4 @@
-# 💳 Banking Information System (CLI Based)
+# 💳 Banking Information System (Backend)
 
 A simple **Command-Line Interface (CLI)** based Banking Information System built using Python.
 This project simulates basic banking operations like account creation, deposit, withdrawal, and balance checking.
@@ -52,7 +52,7 @@ banking-system/
 3. Run the program:
 
    ```bash
-   python main.py
+   python BankingProjectDemo.py
    ```
 
 ---
