@@ -9,7 +9,7 @@ def openaccount():
             con = mc.connect(
                 host="localhost",
                 user="root",
-                password="Agarwal",
+                password="password",
                 database="bank",
                 use_pure=True
             )
