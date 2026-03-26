@@ -2,7 +2,7 @@ import mysql.connector as mc
 
 try:
     def createdatabase():
-        con = mc.connect(host="localhost", user="root", password="Agarwal", use_pure=True)
+        con = mc.connect(host="localhost", user="root", password="password", use_pure=True)
         cur = con.cursor()
         createDatabase = "create database Bank"
         cur.execute(createDatabase)
