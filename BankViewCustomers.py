@@ -4,7 +4,7 @@ from BankExcept import CustomerNotFoundError
 def viewcustomer():
     while True:
         try:
-            con = mc.connect(host="localhost", user="root", password="Agarwal", database="bank")
+            con = mc.connect(host="localhost", user="root", password="password", database="bank")
             cur = con.cursor()
             acno = int(input("Enter your Account Number: "))
             pin = int(input("Enter your Pin Number: "))
